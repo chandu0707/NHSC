@@ -1,35 +1,21 @@
 //
-//  WelcomeViewController.swift
+//  SignupViewController.swift
 //  NHSC
 //
-//  Created by Admin on 14/07/18.
+//  Created by Admin on 15/07/18.
 //  Copyright © 2018 myspace. All rights reserved.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class SignupViewController: UIViewController {
 
-    @IBOutlet weak var mybutton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       mybutton.layer.cornerRadius = 20
-       mybutton.layer.borderWidth = 3
-       mybutton.layer.borderColor = UIColor.white.cgColor
-       mybutton.layer.masksToBounds = true
-    
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func gotoscreen(_ sender: UIButton) {
-    
-        
-        
-        
-    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

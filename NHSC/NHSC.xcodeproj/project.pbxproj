@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		8476A9FE20F9B52E00F7E2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8476A9FD20F9B52E00F7E2AE /* Assets.xcassets */; };
 		8476AA0020F9B83500F7E2AE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476A9FF20F9B83500F7E2AE /* WelcomeViewController.swift */; };
+		8476AA0720FA1B1200F7E2AE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476AA0620FA1B1200F7E2AE /* SigninViewController.swift */; };
+		848CD29520FB3E0A003F30AE /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 848CD29420FB3E0A003F30AE /* sample.json */; };
+		848CD29720FB6126003F30AE /* nhsc.png in Resources */ = {isa = PBXBuildFile; fileRef = 848CD29620FB6124003F30AE /* nhsc.png */; };
 		849E96EE20F9A003006D2BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E96ED20F9A003006D2BEB /* AppDelegate.swift */; };
 		849E96F320F9A003006D2BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E96F120F9A003006D2BEB /* Main.storyboard */; };
 		849E96F820F9A003006D2BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E96F620F9A003006D2BEB /* LaunchScreen.storyboard */; };
 		849E970320F9A003006D2BEB /* NHSCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E970220F9A003006D2BEB /* NHSCTests.swift */; };
+		84EA5BDD20FB04040055B7D7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA5BDC20FB04040055B7D7 /* SignupViewController.swift */; };
+		84EA5BE020FB07F20055B7D7 /* Sign-up-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA5BDF20FB07EF0055B7D7 /* Sign-up-1.png */; };
+		84EA5BE420FB164E0055B7D7 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA5BE320FB164D0055B7D7 /* mail.png */; };
+		84EA5BE620FB166F0055B7D7 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA5BE520FB166E0055B7D7 /* password.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,9 @@
 /* Begin PBXFileReference section */
 		8476A9FD20F9B52E00F7E2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8476A9FF20F9B83500F7E2AE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8476AA0620FA1B1200F7E2AE /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		848CD29420FB3E0A003F30AE /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		848CD29620FB6124003F30AE /* nhsc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nhsc.png; path = "../../../Downloads/Revised Designs 14-6-18-2-2/High Res Logo/nhsc.png"; sourceTree = "<group>"; };
 		849E96EA20F9A003006D2BEB /* NHSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E96ED20F9A003006D2BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849E96F220F9A003006D2BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,10 @@
 		849E96FE20F9A003006D2BEB /* NHSCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHSCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E970220F9A003006D2BEB /* NHSCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHSCTests.swift; sourceTree = "<group>"; };
 		849E970420F9A003006D2BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EA5BDC20FB04040055B7D7 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		84EA5BDF20FB07EF0055B7D7 /* Sign-up-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign-up-1.png"; sourceTree = "<group>"; };
+		84EA5BE320FB164D0055B7D7 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		84EA5BE520FB166E0055B7D7 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +92,17 @@
 			isa = PBXGroup;
 			children = (
 				849E96ED20F9A003006D2BEB /* AppDelegate.swift */,
+				8476AA0620FA1B1200F7E2AE /* SigninViewController.swift */,
 				8476A9FF20F9B83500F7E2AE /* WelcomeViewController.swift */,
+				848CD29420FB3E0A003F30AE /* sample.json */,
+				84EA5BDC20FB04040055B7D7 /* SignupViewController.swift */,
 				849E96F120F9A003006D2BEB /* Main.storyboard */,
 				849E96F620F9A003006D2BEB /* LaunchScreen.storyboard */,
 				8476A9FD20F9B52E00F7E2AE /* Assets.xcassets */,
+				84EA5BE520FB166E0055B7D7 /* password.png */,
+				84EA5BE320FB164D0055B7D7 /* mail.png */,
+				848CD29620FB6124003F30AE /* nhsc.png */,
+				84EA5BDF20FB07EF0055B7D7 /* Sign-up-1.png */,
 				849E96F920F9A003006D2BEB /* Info.plist */,
 			);
 			path = NHSC;
@@ -179,9 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EA5BE620FB166F0055B7D7 /* password.png in Resources */,
 				849E96F820F9A003006D2BEB /* LaunchScreen.storyboard in Resources */,
+				84EA5BE420FB164E0055B7D7 /* mail.png in Resources */,
+				848CD29520FB3E0A003F30AE /* sample.json in Resources */,
+				84EA5BE020FB07F20055B7D7 /* Sign-up-1.png in Resources */,
 				8476A9FE20F9B52E00F7E2AE /* Assets.xcassets in Resources */,
 				849E96F320F9A003006D2BEB /* Main.storyboard in Resources */,
+				848CD29720FB6126003F30AE /* nhsc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +227,8 @@
 			files = (
 				849E96EE20F9A003006D2BEB /* AppDelegate.swift in Sources */,
 				8476AA0020F9B83500F7E2AE /* WelcomeViewController.swift in Sources */,
+				84EA5BDD20FB04040055B7D7 /* SignupViewController.swift in Sources */,
+				8476AA0720FA1B1200F7E2AE /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
